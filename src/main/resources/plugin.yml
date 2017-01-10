@@ -1,0 +1,8 @@
+name: RelayItToDiscord
+main: com.mrpowergamerbr.relayittodiscord.RelayItToDiscord
+version: 1.0.0
+softdepend: ["PlaceholderAPI"]
+commands:
+   relayreload:
+      description: Reloads RelayItToDiscord
+      usage: /<command>

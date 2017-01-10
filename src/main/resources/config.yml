@@ -1,0 +1,39 @@
+# RelayItToDiscord - Created by MrPowerGamerBR
+# GitHub repo: https://github.com/MrPowerGamerBR/RelayItToDiscord
+
+# This is the Discord Webhook link
+# To get one, open your server configuration panel, go to "Webhooks", create a webhook and then
+# copy the link to here
+WebhookLink: "Webhook Link"
+
+# This is the bot username on Discord
+#
+# For (almost) every string you can use these placeholders
+# %player_name% = player name
+# %player_displayname% = player display name
+# %player_uuid% = player UUID
+# %stripped_player_displayname% = player display name without color
+# This has a limit of 32 chars! Anything above that will be cut off!
+Username: "%player_name%"
+
+# This is the chat format
+# You can add fancy things to it if you want
+# like the player's group!
+# Or just keep it like that to just show the message
+Format: "%content%"
+
+# Should the message has color stripped from it?
+StripColors: true
+
+# This is the bot avatar, you can set to something static or make it the user avatar
+AvatarUrl: "https://minotar.net/helm/%player_name%/64.png"
+
+# Use PlaceholderAPI? https://www.spigotmc.org/resources/placeholderapi.6245/
+UsePlaceholderAPI: true
+
+# Issues should never ever happen, but hey, nothing is perfect.
+# So this is the advanced configuration section
+Advanced:
+    # If you are experiencing issues, change this value to false
+    # Try editing this before editing the EventPriority
+    IgnoreCancelled: true
