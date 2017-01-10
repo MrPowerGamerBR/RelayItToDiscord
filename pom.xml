@@ -36,6 +36,11 @@
 			<version>2.6.0</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.github.DV8FromTheWorld</groupId>
+			<artifactId>JDA</artifactId>
+			<version>v3.0.BETA2</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
